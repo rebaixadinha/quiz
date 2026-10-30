@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #111827, #1d4ed8);
+    color: white;
+}
+.jogo{
+    width: 90%;
+    max-width: 800px;
+    }
+header {
+    font-size: 12px;
+}
+#categoria{
+    margin-top: 8px;
+    opacity: 0.8;
+}
+header h1{
+    font-size: 12px;
+}
+.painel{
+    background-color: blue;
+    padding: 30px;
+    border-radius: 20px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+
+
